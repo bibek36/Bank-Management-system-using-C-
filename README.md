@@ -1,20 +1,7 @@
 # Bank-Management
-In this project there a three basic portions:
-1-admin
-2-customer
-3-staff
-so all these have different levels of authorizations like 
+This project is divided into three key roles: Admin, Customer, and Staff, each with distinct authorization levels:
 
-1-customer can :
-perform transaction and like that
-
-3-staff can:
-add amount in account
-deduct amount from account
-request to open account
-
-3-admin can:
-see all accounts 
-can read all accounts
-can give permission to open account
-have cresidentials of all accounts
+Customer: Can perform transactions and other related operations.
+Staff: Responsible for adding or deducting amounts in accounts and submitting requests to open new accounts.
+Admin: Has complete oversight of all accounts, including the ability to view, read, and manage account credentials. Admin can also approve requests to open accounts.
+The system ensures role-based access control to maintain security and operational integrity.
